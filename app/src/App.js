@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from "./Navbar.js";
 import Footer from "./Footer.js";
+import GetMenu from "./GetMenu.js"
 
 export default function App(){
     return (
@@ -10,6 +11,7 @@ export default function App(){
                     <h1>
                         insert page content here
                     </h1>
+                    <GetMenu />
                 </div>
             <Footer />
         </div>
