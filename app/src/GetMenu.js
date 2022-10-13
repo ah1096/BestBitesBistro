@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import axios from 'axios';
+import MenuDropdown from './MenuDropdown';
 
 export default function GetMenu() {
     const [menu, setMenu] = useState([])
@@ -41,6 +42,11 @@ export default function GetMenu() {
         
         <button onClick={callAPI}>Get Menu</button>
           
+        <MenuDropdown />
+
         </div>
+
+        
+
     );
 }

@@ -14,7 +14,6 @@ export default function App(){
                         insert page content here
                     </h1>
                     <GetMenu />
-                    <MenuDropdown />
                     
                 </div>
             <Footer />
