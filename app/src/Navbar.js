@@ -2,15 +2,30 @@ import fillercat from './cat-icon.png';
 
 
 export default function Navbar () {
+
+  const headerImage = {
+    name: 'headerImage',
+    imageUrl: fillercat,
+    imageSize: 40,
+  };
+
    return ( 
         <div>
             
             <nav className="navbar navbar-expand-lg bg-light">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">
-        <img src={fillercat} alt="placeholder cat" className="headerIcon"></img>
-        
-        best BITES bistro</a>
+
+        <img 
+        src={headerImage.imageUrl} 
+        alt="placeholder cat" 
+        className="headerIcon"
+        style={{
+          width: headerImage.imageSize,
+          height: headerImage.imageSize
+        }}
+        ></img>
+            best BITES bistro</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
