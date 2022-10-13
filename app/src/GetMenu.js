@@ -15,17 +15,17 @@ export default function GetMenu() {
     }
 
 
-    const sides = menu.filter(item => [63, 48, 71, 42, 14].includes(item.id)).map(item => 
-        <div>
-            <li>{item.title}.....${item.price}</li>
-        </div>)
-        
-    const entrees = menu.filter(item => [64, 62, 84, 35, 86].includes(item.id)).map(item => 
+    const sides = menu.filter(item => [66, 51, 74, 17, 16].includes(item.id)).map(item => 
         <div>
             <li>{item.title}.....${item.price}</li>
         </div>)
 
-    const desserts = menu.filter(item => [85, 87, 5, 26, 88].includes(item.id)).map(item =>
+    const entrees = menu.filter(item => [67, 65, 87, 38, 89].includes(item.id)).map(item => 
+        <div>
+            <li>{item.title}.....${item.price}</li>
+        </div>)
+
+    const desserts = menu.filter(item => [88, 90, 5, 29, 91].includes(item.id)).map(item =>
         <div>
             <li>{item.title}.....${item.price}</li>
         </div>)
