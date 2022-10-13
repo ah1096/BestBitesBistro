@@ -15,14 +15,30 @@ export default function GetMenu() {
     }
 
 
-    const menuItems = menu.filter(item => [1, 7, 10].includes(item.id)).map(item => <li>{item.title}{item.id}</li>)
+    const sides = menu.filter(item => [63, 48, 71, 42, 14].includes(item.id)).map(item => 
+        <div>
+            <li>{item.title}.....${item.price}</li>
+        </div>)
+        
+    const entrees = menu.filter(item => [64, 62, 84, 35, 86].includes(item.id)).map(item => 
+        <div>
+            <li>{item.title}.....${item.price}</li>
+        </div>)
 
+    const desserts = menu.filter(item => [85, 87, 5, 26, 88].includes(item.id)).map(item =>
+        <div>
+            <li>{item.title}.....${item.price}</li>
+        </div>)
+        
     
 
     return (
         <div className="GetMenu">
 
-        <ul>{menuItems}</ul>
+        <ul>{sides}</ul>
+        <ul>{entrees}</ul>
+        <ul>{desserts}</ul>
+        
         <button onClick={callAPI}>Get Menu</button>
           
         </div>
