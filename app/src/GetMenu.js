@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import axios from 'axios';
-import MenuDropdown from './MenuDropdown';
+//import MenuDropdown from './MenuDropdown';
 import Card from './Card.js';
 
 export default function GetMenu() {
@@ -72,6 +72,10 @@ export default function GetMenu() {
                         </div>
                     </div>
 
+                {/* </div> */}
+
+
+                {/* <div className="row text-center"> */}
 
                     <div className="col text-center">
                         <div className="collapse multi-collapse" id="entree-menu">
@@ -81,6 +85,10 @@ export default function GetMenu() {
                             </div>
                         </div>
                     </div>
+                
+                {/* </div> */}
+
+                {/* <div className="row text-center"> */}
     
                     <div className="col text-center">
                         <div className="collapse multi-collapse" id="dessert-menu">
