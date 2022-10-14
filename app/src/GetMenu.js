@@ -53,19 +53,47 @@ export default function GetMenu() {
     
 
     return (
+        
         <div className="GetMenu">
 
-        <ul>{sides}</ul>
-        <ul>{entrees}</ul>
-        <ul>{desserts}</ul>
-        
-        <button onClick={callAPI}>Get Menu</button>
-          
-        <MenuDropdown />
+            <div>
+                <p>
+                    <button onClick={callAPI} className="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="side-menu entree-menu dessert-menu">Show Menu</button>
+                </p>
 
+                <div className="row text-center">
+
+                    <div className="col text-center">
+                        <div className="collapse multi-collapse" id="side-menu">
+                            <div className="card card-body">
+                                <h1>sides</h1>
+                                <ul className="text-center">{sides}</ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className="col text-center">
+                        <div className="collapse multi-collapse" id="entree-menu">
+                            <div className="card card-body">
+                                <h1>entrees</h1>
+                                <ul className="text-center">{entrees}</ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div className="col text-center">
+                        <div className="collapse multi-collapse" id="dessert-menu">
+                            <div className="card card-body">
+                                <h1>desserts</h1>
+                                <ul className="text-center">{desserts}</ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
-
-        
-
-    );
+            
+    )
 }
