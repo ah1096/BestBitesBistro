@@ -1,0 +1,27 @@
+import Navbar from './Navbar.js';
+import fillercat from './cat-icon.png';
+import Footer from './Footer.js';
+import CatCard from './CatCard.js';
+
+const image = {
+    name: 'image',
+    imageUrl: fillercat,
+    imageSize: 200,
+  };
+
+export default function CatBios(){
+    return(
+        <div>
+            <Navbar />
+
+                <div>
+                    <h1 className="text-center">buddies</h1>
+                    <p className="text-center">here's a bunch of cats</p>
+
+                    <CatCard />
+                </div>
+
+            <Footer />
+        </div>
+    )
+}
