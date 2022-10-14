@@ -1,7 +1,9 @@
 import fillercat from './cat-icon.png';
 
 
-export default function Navbar () {
+export default function Navbar (props) {
+
+
 
   const headerImage = {
     name: 'headerImage',
@@ -34,23 +36,24 @@ export default function Navbar () {
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
+          <a onClick={() => props.uhhhh('home')} className="nav-link active" aria-current="page" href="#">Home</a>
+
         </li>
 
         <li className="nav-item">
-          <a className="nav-link" href="#">'bout</a>
+          <a onClick={() => props.uhhhh('about')} className="nav-link" href="#">'bout</a>
         </li>
 
         <li className="nav-item">
-          <a className="nav-link" href="#">bites</a>
+          <a onClick={() => props.uhhhh('menu')} className="nav-link" href="#">bites</a>
         </li>
 
         <li className="nav-item">
-          <a className="nav-link" href="#">buddies</a>
+          <a onClick={() => props.uhhhh('catbios')} className="nav-link" href="#">buddies</a>
         </li>
         
         <li className="nav-item">
-          <a className="nav-link" href="#">buy</a>
+          <a onClick={() => props.uhhhh('merch')} className="nav-link" href="#">buy</a>
         </li>
       </ul>
       

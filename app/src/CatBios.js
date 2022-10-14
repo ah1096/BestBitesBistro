@@ -12,7 +12,7 @@ const image = {
 export default function CatBios(){
     return(
         <div>
-            <Navbar />
+      
 
                 <div>
                     <h1 className="text-center">buddies</h1>
@@ -21,7 +21,6 @@ export default function CatBios(){
                     <CatCard />
                 </div>
 
-            <Footer />
         </div>
     )
 }

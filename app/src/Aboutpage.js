@@ -11,7 +11,7 @@ const image = {
 export default function Aboutpage(){
     return(
         <div>
-            <Navbar />
+    
                 <div className="px-4 py-5 my-5 text-center">
                 
 
@@ -40,7 +40,7 @@ export default function Aboutpage(){
                 </div>
 
                 </div>
-            <Footer />
+          
         </div>
     )
 }
