@@ -1,6 +1,5 @@
-import Navbar from './Navbar.js';
 import fillercat from './cat-icon.png';
-import Footer from './Footer.js';
+
 
 const image = {
     name: 'image',
@@ -13,7 +12,6 @@ export default function Aboutpage(){
         <div>
     
                 <div className="px-4 py-5 my-5 text-center">
-                
 
                 <div className="container col-xxl-8 px-4 py-5">
                     <div className="row flex-lg-row-reverse  g-5 py-5">

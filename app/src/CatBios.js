@@ -1,6 +1,4 @@
-import Navbar from './Navbar.js';
 import fillercat from './cat-icon.png';
-import Footer from './Footer.js';
 import CatCard from './CatCard.js';
 
 const image = {
