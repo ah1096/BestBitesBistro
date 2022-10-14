@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import axios from 'axios';
 import MenuDropdown from './MenuDropdown';
+import Card from './Card.js';
 
 export default function GetMenu() {
     const [menu, setMenu] = useState([])
@@ -18,17 +19,35 @@ export default function GetMenu() {
 
     const sides = menu.filter(item => [66, 51, 74, 17, 16].includes(item.id)).map(item => 
         <div>
-            <li>{item.title}.....${item.price}</li>
+           
+            <Card 
+                foodname={item.title}
+                desc={item.description}
+                price={item.price}
+                />
+
         </div>)
 
     const entrees = menu.filter(item => [67, 65, 87, 38, 89].includes(item.id)).map(item => 
         <div>
-            <li>{item.title}.....${item.price}</li>
+
+            <Card 
+                foodname={item.title}
+                desc={item.description}
+                price={item.price}
+                />
+
         </div>)
 
     const desserts = menu.filter(item => [88, 90, 5, 29, 91].includes(item.id)).map(item =>
         <div>
-            <li>{item.title}.....${item.price}</li>
+
+            <Card 
+                foodname={item.title}
+                desc={item.description}
+                price={item.price}
+                />
+            
         </div>)
         
     

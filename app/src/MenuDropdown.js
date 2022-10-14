@@ -18,12 +18,7 @@ export default function MenuDropDown() {
                             <h2>Sides</h2>
                             <p>insert side item cards here</p>   
 
-                                <Card 
-                                    foodcard = {'uhhhhh'}
-
-
-                                    
-                                    />
+                                <Card />
 
                         </div>
                     </div>
@@ -35,7 +30,11 @@ export default function MenuDropDown() {
                             <h2>Entrees</h2>
                             <p>insert entree cards here</p>
 
-                                <Card />
+                                <Card 
+                                    foodname = {'uhhhhh'}
+                                    description = {'?????'}
+                                    price = {'bdkcfjndv'}
+                                />
 
                         </div>
                     </div>
@@ -47,7 +46,12 @@ export default function MenuDropDown() {
                             <h2>Desserts</h2>
                             <p>insert dessert cards here</p>
 
-                                <Card />
+                                <Card 
+                                    foodname = {'uhhhhh'}
+                                    description = {'?????'}
+                                    price = {'bdkcfjndv'}
+                                
+                                />
                         </div>
                     </div>
                 </div>
