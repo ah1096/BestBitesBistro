@@ -58,7 +58,7 @@ export default function GetMenu() {
 
             <div>
                 <p>
-                    <button onClick={callAPI} className="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="side-menu entree-menu dessert-menu">Show Menu</button>
+                    <button onClick={callAPI} id="button"className="btn" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="side-menu entree-menu dessert-menu">Show Menu</button>
                 </p>
 
                 <div className="row text-center">

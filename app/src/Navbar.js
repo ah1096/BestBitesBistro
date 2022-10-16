@@ -14,9 +14,9 @@ export default function Navbar (props) {
    return ( 
         <div>
             
-            <nav className="navbar navbar-expand-lg bg-light">
+            <nav className="navbar navbar-expand-lg" id="navbar">
   <div className="container-fluid">
-    
+
     <a className="navbar-brand" onClick={() => props.uhhhh('home')} aria-current="page" href="#">
     <img 
         src={headerImage.imageUrl} 

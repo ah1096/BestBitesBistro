@@ -29,7 +29,7 @@ export default function Homepage(){
                     <p className="lead">welcome to Best Bites Bistro, a cat cafe! here at Best Bites, you can dine with one of our Best Bites Buddies! we've got cats of all stripes -- sweet AND spicy --  so be sure to keep an eye on both your fingers and your food!</p>
                         <h6><em>**best bites bistro accepts no responsibility for cat-related injuries sustained while dining with spicy Buddies</em></h6>
                             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                                <button type="button" className="btn btn-primary btn-lg px-4 gap-3">see our menu</button>
+                                <button type="button" id="button" className="btn btn-lg px-4 gap-3">get bit</button>
                             </div>
                     </div>
 
