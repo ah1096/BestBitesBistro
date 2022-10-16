@@ -67,7 +67,7 @@ export default function GetMenu() {
                         <div className="collapse multi-collapse" id="side-menu">
                             <div className="card card-body">
                                 <h1>sides</h1>
-                                <ul className="text-center">{sides}</ul>
+                                {sides}
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ export default function GetMenu() {
                         <div className="collapse multi-collapse" id="entree-menu">
                             <div className="card card-body">
                                 <h1>entrees</h1>
-                                <ul className="text-center">{entrees}</ul>
+                                {entrees}
                             </div>
                         </div>
                     </div>
@@ -94,7 +94,7 @@ export default function GetMenu() {
                         <div className="collapse multi-collapse" id="dessert-menu">
                             <div className="card card-body">
                                 <h1>desserts</h1>
-                                <ul className="text-center">{desserts}</ul>
+                                {desserts}
                             </div>
                         </div>
                     </div>

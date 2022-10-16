@@ -2,4 +2,9 @@ h1 {
     color: red;
 }
 
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;}
 

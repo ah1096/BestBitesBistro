@@ -5,7 +5,7 @@ export default function Footer(){
             <footer className="footer mt-auto py-3 bg-light">
                 <div className="container">
                     <span className="text-muted">
-                        XXX Whatever Street | 859-XXX-XXXX | <a href='#'>hours </a>
+                        Contact us: 1-800-GET-BIT
                     </span>
                 </div>
             </footer>
