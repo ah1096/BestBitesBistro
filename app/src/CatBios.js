@@ -14,7 +14,7 @@ export default function CatBios(){
 
                 <div>
                     <h1 className="text-center">buddies</h1>
-                    <p className="text-center">here's a bunch of cats</p>
+                    <p className="text-center">how about some company? dine with any one of our Best Bites Buddies</p>
 
                     <CatCard />
                 </div>

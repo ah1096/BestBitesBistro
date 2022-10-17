@@ -1,14 +1,15 @@
-import fricktee from './merch/frick-birds-tee.png';
-import bitetee from './merch/frick-birds-tee.png';
+import shirts from './merch/bothshirts.png';
 
 
-const image = {
-    name: 'image',
-    imageUrl: fillercat,
-    imageSize: 200,
+
+const shirtMerch = {
+    name: 'shirts',
+    imageUrl: shirts,
+    imageHeight: 300,
+    imageWidth: 600,
   };
 
-export default function Aboutpage(){
+export default function Merchpage(){
     return(
         <div>
     
@@ -19,13 +20,14 @@ export default function Aboutpage(){
                     <div className="col-10 col-sm-8 col-lg-6">
                         <img className="d-block mx-lg-auto img-fluid" 
                             loading="lazy" 
-                            alt="placeholder cat" 
-                            src= {image.imageUrl}
+                            alt="a white t-shirt that says frick birds, all my homies hate birds" 
+                            src= {shirtMerch.imageUrl}
                             style={{
-                                width: image.imageSize,
-                                height: image.imageSize
+                                width: shirtMerch.imageWidth,
+                                height: shirtMerch.imageHeight
                                 }}
                     ></img>
+
                     </div>
                     <div className="col-lg-6">
                         <h1 className="display-5 fw-bold lh-1 mb-3">buy a shirt</h1>
