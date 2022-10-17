@@ -2,8 +2,8 @@ import smudge from './kitties/cat_smudge.png';
 import abel from './kitties/cat_Abel.jpg';
 import boo from './kitties/cat_Boo.jpg';
 import cheshire from './kitties/cat_Cheshire.jpg';
-import fugu from './kitties/cat_fugu.jpg';
-import hyde from './kitties/cat_hyde.jpg';
+import fugu from './kitties/cat_Fugu.jpg';
+import hyde from './kitties/cat_Hyde.jpg';
 import jackie from './kitties/cat_Jackie.jpg';
 import lilyMae from './kitties/cat_Lily-Mae.jpg';
 import obi from './kitties/cat_Obi.jpg';
@@ -353,6 +353,106 @@ const image = {
             <div className="col-md-8">
                 <div className="card-body">
                     <h5 className="card-title">Ollie</h5>
+                    <p className="card-text">[insert description here]</p>
+                    <p className="card-text">
+                        <small className="text-muted">Spicy level: ??</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div className="card mb-3" id="catcard">
+        <div className="row g-0">
+            <div className="col-md-4">
+            <img className="img-fluid rounded-circle" 
+                    loading="lazy" 
+                    alt="placeholder cat" 
+                    src= {oscarCat.imageUrl}
+                    style={{
+                        width: oscarCat.imageSize,
+                        height: oscarCat.imageSize
+                        }}
+                ></img>
+            </div>
+                                
+            <div className="col-md-8">
+                <div className="card-body">
+                    <h5 className="card-title">Oscar</h5>
+                    <p className="card-text">[insert description here]</p>
+                    <p className="card-text">
+                        <small className="text-muted">Spicy level: ??</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div className="card mb-3" id="catcard">
+        <div className="row g-0">
+            <div className="col-md-4">
+            <img className="img-fluid rounded-circle" 
+                    loading="lazy" 
+                    alt="placeholder cat" 
+                    src= {sushiCat.imageUrl}
+                    style={{
+                        width: sushiCat.imageSize,
+                        height: sushiCat.imageSize
+                        }}
+                ></img>
+            </div>
+                                
+            <div className="col-md-8">
+                <div className="card-body">
+                    <h5 className="card-title">Sushi</h5>
+                    <p className="card-text">[insert description here]</p>
+                    <p className="card-text">
+                        <small className="text-muted">Spicy level: ??</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div className="card mb-3" id="catcard">
+        <div className="row g-0">
+            <div className="col-md-4">
+            <img className="img-fluid rounded-circle" 
+                    loading="lazy" 
+                    alt="placeholder cat" 
+                    src= {waylandCat.imageUrl}
+                    style={{
+                        width: waylandCat.imageSize,
+                        height: waylandCat.imageSize
+                        }}
+                ></img>
+            </div>
+                                
+            <div className="col-md-8">
+                <div className="card-body">
+                    <h5 className="card-title">Wayland</h5>
+                    <p className="card-text">[insert description here]</p>
+                    <p className="card-text">
+                        <small className="text-muted">Spicy level: ??</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div className="card mb-3" id="catcard">
+        <div className="row g-0">
+            <div className="col-md-4">
+            <img className="img-fluid rounded-circle" 
+                    loading="lazy" 
+                    alt="placeholder cat" 
+                    src= {woodyCat.imageUrl}
+                    style={{
+                        width: woodyCat.imageSize,
+                        height: woodyCat.imageSize
+                        }}
+                ></img>
+            </div>
+                                
+            <div className="col-md-8">
+                <div className="card-body">
+                    <h5 className="card-title">Woodrow Wislon, aka "Woody"</h5>
                     <p className="card-text">[insert description here]</p>
                     <p className="card-text">
                         <small className="text-muted">Spicy level: ??</small></p>
