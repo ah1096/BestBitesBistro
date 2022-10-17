@@ -1,5 +1,35 @@
-h1 {
-    color: red;
+
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;}
+
+body {
+    background-color: #fafafa;
 }
 
+h1, h2 {
+    color: #f67b8f;
+}
+
+h6 {
+    color: #ffc1cc;
+}
+
+
+
+#navbar {
+    background-color: #e1dcdd;
+    ;
+}
+
+#footer {
+    background-color: #e1dcdd;
+}
+
+#button {
+    background-color: #f67b8f;
+    color: white;
+}
 

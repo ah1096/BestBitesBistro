@@ -2,8 +2,8 @@ import './App.css';
 import Homepage from "./Homepage.js";
 import Aboutpage from "./Aboutpage.js";
 import CatBios from "./CatBios.js";
-import Menupage from ".Menupage.js"
-import Merchpage from ".Menupage.js";
+import Menupage from "./Menupage.js"
+import Merchpage from "./Merchpage.js";
 import { useState } from 'react';
 import Navbar from './Navbar.js';
 import Footer from './Footer.js';
