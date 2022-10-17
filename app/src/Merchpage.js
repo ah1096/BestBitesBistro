@@ -31,10 +31,14 @@ export default function Merchpage(){
                     </div>
                     <div className="col-lg-6">
                         <h1 className="display-5 fw-bold lh-1 mb-3">buy a shirt</h1>
-                        <p className="lead">all proceeds from shirt sales go to the Birds Aren't Real awareness campaign</p>
+                        <p className="lead">allergic to cats, but still want to support a local business? grab some limited-edition Best Bites merch!</p>
+                        <h6><em>10% of proceeds from shirt sales go to Keep Cats Outdoors, part of the Birds Aren't Real awareness campaign.</em></h6>
                         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                         <button id="button" type="button" className="btn btn-lg px-4 me-md-2">gimme</button>
-                        <button id="button2" type="button" className="btn btn-outline-secondary btn-lg px-4">the what campaign?</button>
+                        <button id="button2" type="button" className="btn btn-outline-secondary btn-lg px-4">
+                            <a href="https://ah1096.github.io/structuring-content/">
+                            the what campaign?
+                            </a></button>
                         </div>
                     </div>
                     </div>

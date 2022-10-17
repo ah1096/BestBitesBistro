@@ -128,7 +128,7 @@ const image = {
                 <div className="col-md-8">
                     <div className="card-body">
                         <h5 className="card-title">Smudge</h5>
-                        <p className="card-text">sald,,</p>
+                        <p className="card-text">[insert description here]</p>
                         <p className="card-text">
                             <small className="text-muted">Spicy level: 🌶🌶</small></p>
                     </div>
