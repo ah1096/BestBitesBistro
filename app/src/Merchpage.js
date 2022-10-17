@@ -1,4 +1,5 @@
-import fillercat from './cat-icon.png';
+import fricktee from './merch/frick-birds-tee.png';
+import bitetee from './merch/frick-birds-tee.png';
 
 
 const image = {
