@@ -1,4 +1,4 @@
-import fillercat from './cat-icon.png';
+import logo from './best-bites-logo.png';
 
 
 export default function Navbar (props) {
@@ -7,8 +7,9 @@ export default function Navbar (props) {
 
   const headerImage = {
     name: 'headerImage',
-    imageUrl: fillercat,
-    imageSize: 40,
+    imageUrl: logo,
+    imageHeight: 35,
+    imageWidth: 80,
   };
 
    return ( 
@@ -20,11 +21,11 @@ export default function Navbar (props) {
     <a className="navbar-brand" onClick={() => props.uhhhh('home')} aria-current="page" href="#">
     <img 
         src={headerImage.imageUrl} 
-        alt="placeholder cat" 
+        alt="Best Bites Bisro logo; a black cat with white fangs biting pink text" 
         className="headerIcon"
         style={{
-          width: headerImage.imageSize,
-          height: headerImage.imageSize
+          width: headerImage.imageWidth,
+          height: headerImage.imageHeight
         }}
         ></img>
       </a>

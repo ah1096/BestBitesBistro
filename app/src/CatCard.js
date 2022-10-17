@@ -178,9 +178,9 @@ const image = {
             <div className="col-md-8">
                 <div className="card-body">
                     <h5 className="card-title">Boo</h5>
-                    <p className="card-text">[insert description here]</p>
+                    <p className="card-text">spoiled rotten. skilled at boundary-setting. best quality: her big ole eyes</p>
                     <p className="card-text">
-                        <small className="text-muted">Spicy level: ??</small></p>
+                        <small className="text-muted">Spicy level: 🍰</small></p>
                 </div>
             </div>
         </div>
@@ -228,7 +228,7 @@ const image = {
             <div className="col-md-8">
                 <div className="card-body">
                     <h5 className="card-title">Hyde</h5>
-                    <p className="card-text">[insert description here]</p>
+                    <p className="card-text">a very mean boi</p>
                     <p className="card-text">
                         <small className="text-muted">Spicy level: ??</small></p>
                 </div>
@@ -253,9 +253,9 @@ const image = {
             <div className="col-md-8">
                 <div className="card-body">
                     <h5 className="card-title">Fugu</h5>
-                    <p className="card-text">[insert description here]</p>
+                    <p className="card-text">50% monkey, 50% rat, 100% naked.</p>
                     <p className="card-text">
-                        <small className="text-muted">Spicy level: ??</small></p>
+                        <small className="text-muted">Spicy level: 🌶🌶🌶</small></p>
                 </div>
             </div>
         </div>
@@ -278,9 +278,9 @@ const image = {
             <div className="col-md-8">
                 <div className="card-body">
                     <h5 className="card-title">Jackie</h5>
-                    <p className="card-text">[insert description here]</p>
+                    <p className="card-text">not a single thought can be found within a 2 kilometer radius of her. she has also been found at multiple crime scenes</p>
                     <p className="card-text">
-                        <small className="text-muted">Spicy level: ??</small></p>
+                        <small className="text-muted">Spicy level: 🌶🌶🌶</small></p>
                 </div>
             </div>
         </div>
@@ -303,9 +303,9 @@ const image = {
             <div className="col-md-8">
                 <div className="card-body">
                     <h5 className="card-title">Lily Mae</h5>
-                    <p className="card-text">[insert description here]</p>
+                    <p className="card-text">all she wants out of life is to cuddle, albeit only on her terms. will nuzzle you all day long but does not like to be touched. has surprisingly astute home health abilities</p>
                     <p className="card-text">
-                        <small className="text-muted">Spicy level: ??</small></p>
+                        <small className="text-muted">Spicy level: 🍰</small></p>
                 </div>
             </div>
         </div>
@@ -328,7 +328,7 @@ const image = {
             <div className="col-md-8">
                 <div className="card-body">
                     <h5 className="card-title">Obi</h5>
-                    <p className="card-text">[insert description here]</p>
+                    <p className="card-text">chaotic neutral</p>
                     <p className="card-text">
                         <small className="text-muted">Spicy level: ??</small></p>
                 </div>
@@ -352,10 +352,10 @@ const image = {
                                 
             <div className="col-md-8">
                 <div className="card-body">
-                    <h5 className="card-title">Ollie</h5>
-                    <p className="card-text">[insert description here]</p>
+                    <h5 className="card-title">Oliver Wendell Holmes, aka "Ollie"</h5>
+                    <p className="card-text">generally a cuddler but when he's done, he's done. will bite your nose without warning but seems to mean for it to be an affectionate thing.</p>
                     <p className="card-text">
-                        <small className="text-muted">Spicy level: ??</small></p>
+                        <small className="text-muted">Spicy level: 🌶🌶🌶</small></p>
                 </div>
             </div>
         </div>
@@ -403,7 +403,7 @@ const image = {
             <div className="col-md-8">
                 <div className="card-body">
                     <h5 className="card-title">Sushi</h5>
-                    <p className="card-text">[insert description here]</p>
+                    <p className="card-text">likes to eat, sleep, and bite</p>
                     <p className="card-text">
                         <small className="text-muted">Spicy level: ??</small></p>
                 </div>
@@ -428,9 +428,9 @@ const image = {
             <div className="col-md-8">
                 <div className="card-body">
                     <h5 className="card-title">Wayland</h5>
-                    <p className="card-text">[insert description here]</p>
+                    <p className="card-text">a very efficent hunter. loves cuddles.</p>
                     <p className="card-text">
-                        <small className="text-muted">Spicy level: ??</small></p>
+                        <small className="text-muted">Spicy level: 🍰</small></p>
                 </div>
             </div>
         </div>
@@ -452,10 +452,10 @@ const image = {
                                 
             <div className="col-md-8">
                 <div className="card-body">
-                    <h5 className="card-title">Woodrow Wislon, aka "Woody"</h5>
-                    <p className="card-text">[insert description here]</p>
+                    <h5 className="card-title">Woodrow Wilson, aka "Woody"</h5>
+                    <p className="card-text">a good candidate for poster child for why cat names should be mutable for up to one year following assignment, because he cares little to nothing for the cause of world peace. picks battles wildly disproportionate to his personal size.</p>
                     <p className="card-text">
-                        <small className="text-muted">Spicy level: ??</small></p>
+                        <small className="text-muted">Spicy level: 🌶🌶🌶🌶🌶🔥</small></p>
                 </div>
             </div>
         </div>

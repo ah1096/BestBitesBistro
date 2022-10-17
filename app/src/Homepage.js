@@ -1,10 +1,11 @@
-import fillercat from './cat-icon.png';
+import logo from './best-bites-logo.png';
 
 
-const image = {
-    name: 'image',
-    imageUrl: fillercat,
-    imageSize: 200,
+const bestbiteslogo = {
+    name: 'logo',
+    imageUrl: logo,
+    imageHeight: 180,
+    imageWidth: 400,
   };
 
 export default function Homepage(){
@@ -15,15 +16,15 @@ export default function Homepage(){
                     
                     <img
                         className="d-block mx-auto mb-4" 
-                        alt="placeholder cat" 
-                        src= {image.imageUrl}
+                        alt="Best Bites Bistro logo" 
+                        src= {bestbiteslogo.imageUrl}
                         style={{
-                            width: image.imageSize,
-                            height: image.imageSize
+                            width: bestbiteslogo.imageWidth,
+                            height: bestbiteslogo.imageHeight
                             }}
                     ></img>
 
-                    <h1 className="display-5 fw-bold">best BITES bistro</h1>
+                    {/* <h1 className="display-5 fw-bold">best BITES bistro</h1> */}
 
                     <div className="col-lg-6 mx-auto">
                     <p className="lead">welcome to Best Bites Bistro, a cat cafe! here at Best Bites, you can dine with one of our Best Bites Buddies! we've got cats of all stripes -- sweet AND spicy --  so be sure to keep an eye on both your fingers and your food!</p>
