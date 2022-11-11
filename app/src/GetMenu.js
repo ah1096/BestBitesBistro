@@ -6,7 +6,7 @@ import Card from './Card.js';
 export default function GetMenu() {
     const [menu, setMenu] = useState([])
     const callAPI = () => {
-        axios.get('https://astute-baton-362318.ue.r.appspot.com/api/json/')
+        axios.get('https://8000-ah1096-backendbistro-f2tw8ahnyma.ws-us75.gitpod.io/menudb/get_menu/')
         .then(response => {
             console.log(response.data)
             setMenu(response.data)
@@ -17,9 +17,8 @@ export default function GetMenu() {
     }
 
 
-    const sides = menu.filter(item => [66, 51, 74, 17, 16].includes(item.id)).map(item => 
+    const sides = menu.filter(item => item.category_id_id__label === 'Side').map(item => 
         <div>
-           
             <Card 
                 foodname={item.title}
                 desc={item.description}
@@ -28,7 +27,7 @@ export default function GetMenu() {
 
         </div>)
 
-    const entrees = menu.filter(item => [67, 65, 87, 38, 89].includes(item.id)).map(item => 
+    const entrees = menu.filter(item => item.category_id_id__label === 'Main').map(item => 
         <div>
 
             <Card 
@@ -39,7 +38,7 @@ export default function GetMenu() {
 
         </div>)
 
-    const desserts = menu.filter(item => [88, 90, 5, 29, 91].includes(item.id)).map(item =>
+    const desserts = menu.filter(item => item.category_id_id__label === 'Dessert').map(item =>
         <div>
 
             <Card 
